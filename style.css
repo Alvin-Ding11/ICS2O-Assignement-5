@@ -1,0 +1,28 @@
+body{
+  background-color: antiquewhite;
+}
+
+.header {
+  text-align: center;
+  padding: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 300%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.image1 {
+  position: relative;
+  left: 100px;
+  height: 50%;
+  width: 50%;
+}
+
+.image2 {
+  position: relative;
+  left: 100px;
+  top: 0;
+}
