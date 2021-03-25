@@ -11,7 +11,7 @@ function equa () {
   diam = parseInt(diam)
 
   rad = diam / 2
-  pie = Math.PI
+  piee = Math.PI
 
   // Circumference of the Circle
   circum = diam * piee
