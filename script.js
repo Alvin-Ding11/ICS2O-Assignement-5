@@ -7,10 +7,10 @@ let piee = 0
 document.getElementById('button').addEventListener('click', equa)
 
 function equa () {
-  if (diam >= 0) {
-    diam = document.getElementById('input').value
-    diam = parseInt(diam)
+  diam = document.getElementById('input').value
+  diam = parseInt(diam)
 
+  if (diam > 0) {
     rad = diam / 2
     piee = Math.PI
 
@@ -24,7 +24,7 @@ function equa () {
 
     document.getElementById('hArea').innerHTML = '<p>' + 'Area of the Circle = ' + area + '</p>'
     document.getElementById('hCircum').innerHTML = '<p>' + 'Circumference of the Circle = ' + circum + '</p>'
-  } else {
+  } else if (diam <= 0) {
     document.getElementById('hArea').innerHTML = 'NaN: Error, please input a valid positive integer'
     document.getElementById('hCircum').innerHTML = 'NaN: Error, please input a valid positive integer'
   }

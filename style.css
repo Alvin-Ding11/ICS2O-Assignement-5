@@ -20,13 +20,14 @@ body {
   height: 65%;
   width: 65%;
   z-index: -1;
+  border: 2px solid black;
 }
 
 .image2 {
   position: relative;
-  left: 100px;
-  top: 0;
+  left: 125px;
   z-index: -1;
+  border: 2px solid black;
 }
 
 button {
@@ -39,6 +40,7 @@ input {
   display: block;
   margin: auto;
   width: 30%;
+  border: 2px solid black;
 }
 
 .descrip {
@@ -49,13 +51,13 @@ input {
 #hArea {
   position: absolute;
   left: 250px;
-  bottom: 500px;
+  bottom: 550px;
 }
 
 #hCircum {
   position: absolute;
   right: 270px;
-  bottom: 500px;
+  bottom: 550px;
 }
 
 .note {
