@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: burlywood;
 }
 
 .header {
@@ -16,15 +16,15 @@ body {
 
 .image1 {
   position: relative;
-  left: 250px;
-  height: 50%;
-  width: 50%;
+  left: 150px;
+  height: 65%;
+  width: 65%;
   z-index: -1;
 }
 
 .image2 {
   position: relative;
-  left: 200px;
+  left: 100px;
   top: 0;
   z-index: -1;
 }
@@ -43,5 +43,21 @@ input {
 
 .descrip {
   text-align: center;
-  font-size: 200%;
+  font-size: 150%;
+}
+
+#hArea {
+  position: absolute;
+  left: 250px;
+  bottom: 500px;
+}
+
+#hCircum {
+  position: absolute;
+  right: 270px;
+  bottom: 500px;
+}
+
+.note {
+  text-align: center;
 }
