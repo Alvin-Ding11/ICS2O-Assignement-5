@@ -18,11 +18,11 @@ function equa () {
     rad = diam / 2
     piee = Math.PI
 
-    // Equation for the circumference of the circle
+    // Equation for the circumference of the circle, rounded to 2 decimal places
     circum = diam * piee
     circum = circum.toFixed(2)
 
-    // Equation for the area of the aircle
+    // Equation for the area of the aircle, rounded to 2 decimal places
     area = piee * Math.pow(rad, 2)
     area = area.toFixed(2)
 
