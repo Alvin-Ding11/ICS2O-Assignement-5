@@ -48,13 +48,13 @@ input {
   font-size: 150%;
 }
 
-#hArea {
+#harea {
   position: absolute;
   left: 250px;
   bottom: 550px;
 }
 
-#hCircum {
+#hcircum {
   position: absolute;
   right: 270px;
   bottom: 550px;

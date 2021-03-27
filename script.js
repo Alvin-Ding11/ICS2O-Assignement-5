@@ -23,10 +23,10 @@ function equa () {
     area = piee * Math.pow(rad, 2)
     area = area.toFixed(2)
 
-    document.getElementById('hArea').innerHTML = '<p>' + 'Area of the Circle = ' + area + '</p>'
-    document.getElementById('hCircum').innerHTML = '<p>' + 'Circumference of the Circle = ' + circum + '</p>'
+    document.getElementById('harea').innerHTML = '<p>' + 'Area of the Circle = ' + area + '</p>'
+    document.getElementById('hcircum').innerHTML = '<p>' + 'Circumference of the Circle = ' + circum + '</p>'
   } else if (diam <= 0) {
-    document.getElementById('hArea').innerHTML = 'NaN: Error, please input a valid positive integer'
-    document.getElementById('hCircum').innerHTML = 'NaN: Error, please input a valid positive integer'
+    document.getElementById('harea').innerHTML = 'NaN: Error, please input a valid positive integer'
+    document.getElementById('hcircum').innerHTML = 'NaN: Error, please input a valid positive integer'
   }
 }
