@@ -13,7 +13,6 @@ function equa () {
   diam = document.getElementById('input').value
   diam = parseInt(diam)
 
-
   // If statement that controls whats gets displayed. If the value of the inputed diameter is positive then it continues normaly and displays the answer. If the diameter is 0 or a negative number, then the program switchs to displaying an error message and asks the user to input a positive value.
   if (diam > 0) {
     rad = diam / 2
