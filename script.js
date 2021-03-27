@@ -3,6 +3,7 @@ let circum = 0
 let diam = 0
 let rad = 0
 let piee = 0
+// Set variables, piee stands for pi as I decided to change its value inside the function
 
 document.getElementById('button').addEventListener('click', equa)
 
